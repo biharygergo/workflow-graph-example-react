@@ -6,8 +6,8 @@ This project is used to show an example integration between the Workflow Graph W
 Some things still need to be improved, but this is a baseline for how the component can be installed and parameterized for use in React.
 
 Things to improve:
-[ ] Typings (remove `any` and improve Typescript/JSX global declaration)
-[ ] Better example UI (try different graph settings?)
+- [ ] Typings (remove `any` and improve Typescript/JSX global declaration)
+- [ ] Better example UI (try different graph settings?)
 
 # Getting Started with Create React App
 
