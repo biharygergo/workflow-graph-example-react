@@ -7,7 +7,7 @@ import 'zone.js';
 import { WorkflowGraphProps } from '@google/workflow-graph';
 
 // Import and register the google-workflow-graph web component
-import '@google/workflow-graph/web-component/registerWorkflowGraphWebComponent';
+import '@google/workflow-graph/web-component/bundle/registerWorkflowGraphWebComponent';
 
 import './App.css';
 
@@ -69,7 +69,6 @@ function App() {
         followNode: null,
         layout: DEFAULT_LAYOUT_OPTIONS,
         hoveredEdge: undefined,
-        selectedNodeChange: (() => { }) as any,
       }
 
       Object.assign(graphComponent, props);
