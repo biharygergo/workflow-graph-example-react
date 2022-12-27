@@ -1,3 +1,14 @@
+<img src="/images/example.png" />
+
+# Example React project using @google/workflow-graph
+This project is used to show an example integration between the Workflow Graph Web Component and React. 
+
+Some things still need to be improved, but this is a baseline for how the component can be installed and parameterized for use in React.
+
+Things to improve:
+[ ] Typings (remove `any` and improve Typescript/JSX global declaration)
+[ ] Better example UI (try different graph settings?)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
