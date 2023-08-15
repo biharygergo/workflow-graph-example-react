@@ -70,7 +70,6 @@ function App() {
         enableToolbar: true,
         expandedMode: false,
         selectedNode: null,
-        hideMinimapFromAssistiveTechnologies: false,
         zoom: 1,
         loading: false,
         dagSpec: { skeleton: fakeGraph.skeleton, meta: fakeGraph.state },
